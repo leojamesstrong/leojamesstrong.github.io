@@ -14,6 +14,15 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="shortcut icon" type="image/png" href="favicon.png">
 
+  <script>
+    let current_url = document.location;
+    document.querySelectorAll(".navbar-light .navbar-nav .nav-link").forEach(function(e){
+       if(e.href == current_url){
+          e.classList += " current";
+       }
+    });
+</script>
+
 </head>
 
 <body>
