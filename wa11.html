@@ -68,6 +68,47 @@
 				</section>
 
 				<section>
+					<div id="vis1"></div>
+	
+					<script type="text/javascript">
+					
+						var spec = {
+						  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+						  "config": {
+						    "view": {
+						    	"continuousHeight": 600,
+						    	"continuousWidth": 800
+						    	}
+						    },
+						    "width": 400,
+						    "height": 300,
+						    "data": {
+						    	"url": "https://vega.github.io/vega-datasets/data/driving.json"
+						    },
+						    "encoding": {
+						    	"color": {
+						    		"field": "Gas",
+						    		"type": "nominal"
+						    	},
+						    	"x": {
+						    		"field": "Year",
+						    		"type": "quantitative"
+						    	},
+						    	"y": {
+						    		"field": "Miles",
+						    		"type": "quantitative"
+						    	}
+						    },
+							"mark": "point"
+						};
+					
+						var opt = {"renderer": "canvas", "actions": false};  /* Options for the embedding */
+					
+						vegaEmbed("#vis1", spec, opt);
+					
+					</script>
+				</section>
+				<section>
 					<p>Code</p>
 				</section>
 			</div>
