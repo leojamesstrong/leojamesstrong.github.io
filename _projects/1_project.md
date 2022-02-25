@@ -1,7 +1,7 @@
 ---
 layout: page
-title: INFO Job Outcomes
-description: A survey of Information Science majors and minors
+title: Buff Portal Usability and Effectiveness
+description: A survey of CU Boulder students on an integral platform for student resources
 img: assets/img/12.jpg
 importance: 1
 category: work
