@@ -13,6 +13,8 @@ Make your photos 1/3, 2/3, or full width.
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
+<a href="/assets/pdf/resume_UXResearcher.pdf">link</a>
+
     ---
     layout: page
     title: project
