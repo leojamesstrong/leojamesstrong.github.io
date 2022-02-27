@@ -13,7 +13,7 @@ Make your photos 1/3, 2/3, or full width.
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
-<a href="/assets/pdf/resume_UXResearcher.pdf">link</a>
+<a href="/assets/pdf/BuffPortal_SurveyDesignTable.pdf">Survey Design Table</a>
 
     ---
     layout: page
