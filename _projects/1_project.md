@@ -10,13 +10,18 @@ category: work
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
 Make your photos 1/3, 2/3, or full width.
-
+ <script>
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+}
+</script>
 
 <a href="/assets/pdf/BuffPortal_SurveyDesignTable.pdf">Survey Design Table</a>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/BuffPortal_SlideDeck1.png" title="Presentation Title Slide" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/BuffPortal_SlideDeck1.png" title="Presentation Title Slide" onclick="onClick(this)" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/BuffPortal_SlideDeck2.png" title="Presentation Topic and Research Section" class="img-fluid rounded z-depth-1" %}
