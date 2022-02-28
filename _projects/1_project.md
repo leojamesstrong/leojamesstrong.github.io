@@ -15,7 +15,7 @@ Make your photos 1/3, 2/3, or full width.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/BuffPortal_SlideDeck1.png" title="Presentation Title Slide" data-zoom-src="image-hd.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/BuffPortal_SlideDeck1.png" title="Presentation Title Slide" data-zoom-src="assets/img/BuffPortal_SlideDeck1.png" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/BuffPortal_SlideDeck2.png" title="Presentation Topic and Research Section" class="img-fluid rounded z-depth-1" %}
