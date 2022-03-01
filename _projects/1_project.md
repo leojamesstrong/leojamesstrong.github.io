@@ -9,6 +9,7 @@ category: work
 
 This project was a survey that I designed and deployed as part of a team. We surveyed a total of 57 student participants and asked a number of questions about respondents’ experiences using Buff Portal, an online platform for student resources. After compiling our data and performing thematic analysis on the responses, we presented our findings and proposed potential changes to the app based on student feedback.
 
+[Link](https://unsplash.com/photos/fx0FBvDkkSc)
 <a href="/assets/pdf/BuffPortal_SurveyDesignTable.pdf">Survey Design Table</a>
 
 <div class="row">
