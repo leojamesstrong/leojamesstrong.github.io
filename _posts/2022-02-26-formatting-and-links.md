@@ -2,7 +2,7 @@
 layout: post
 title:  a post with formatting and links
 date:   2022-02-26 16:40:16
-description: march & april, looking forward to summer
+description: end of month wrap-up
 tags: formatting links
 categories: sample-posts
 ---
