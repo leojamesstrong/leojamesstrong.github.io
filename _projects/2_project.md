@@ -2,7 +2,7 @@
 layout: page
 title: INFO Job Outcomes
 description: A survey of Information Science majors and minors
-img: assets/img/3.jpg
+img: assets/img/InfoJobs_Thumb.jpg
 importance: 2
 category: work
 ---
