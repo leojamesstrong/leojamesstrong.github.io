@@ -23,7 +23,7 @@ This project was a survey that I designed and deployed as part of a team. We sur
     </div>
 </div>
 <div class="caption">
-    Slides from my project team's presentation on the subject of our research and our findings. Full slide deck can be found here.
+    Slides from my project team's presentation on the subject of our research and our findings. Full slide deck can be found <a href="/assets/img/BuffPortal_SurveyReportSlides.pdf">here</a>.
 </div>
 
 Our research question was:

@@ -7,9 +7,8 @@ importance: 3
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+This project features a prototype of an application UI conceptualized with the goal of addressing the lack of pulse sensing applications with a user-friendly visual interface that not only take and display the user’s pulse, but display that data in the context of that of a general populace, including a visible range of heart rates
+that are generally considered to be healthy and how the user’s pulse fits into that range. 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -23,15 +22,7 @@ Make your photos 1/3, 2/3, or full width.
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Concepts for various displays of the pulse application. From left to right: the default screen with the user's data point highlighted in blue, static version of the screen displayed after selecting a data point, and the selection screen with a pulsating data point.
 </div>
 
 [Project image source](https://unsplash.com/photos/fx0FBvDkkSc)
