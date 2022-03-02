@@ -1,45 +1,50 @@
 ---
 layout: page
-title: Buff Portal Usability and Effectiveness
-description: A survey of CU Boulder students on an integral platform for student resources
-img: assets/img/BuffPortal.png
+title: INFO Job Outcomes
+description: A survey of Information Science majors and minors
+img: assets/img/InfoJobs_Thumb.jpg
 importance: 1
 category: work
 ---
 
-This project was a survey that I designed and deployed as part of a team. We surveyed a total of 57 student participants and asked a number of questions about respondents’ experiences using Buff Portal, an online platform for student resources. After compiling our data and performing thematic analysis on the responses, we presented our findings and proposed potential changes to the app based on student feedback.
-
-<a href="/assets/pdf/BuffPortal_SurveyDesignTable.pdf">Survey Design Table</a>
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/BuffPortal_SlideDeck1.png" title="Presentation Title Slide" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/BuffPortal_SlideDeck2.png" title="Presentation Topic and Research Section" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/BuffPortal_SlideDeck3.png" title="Presentation Canvas Data Analysis" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-</div>
-<div class="caption">
-    Slides from my project team's presentation on the subject of our research and our findings. Full slide deck can be found here.
-</div>
-
-Our research question was:
-
-> Does Buff Portal provide a platform which properly aids students in finding solutions to their various school-related needs?
-
-In other words, is Buff Portal very useful to students? We also asked contextual questions as part of our survey in order to gain a better understanding of why students did or did not think that Buff Portal does its job well.
+Every project has a beautiful feature showcase page.
+It's easy to include images in a flexible 3-column grid format.
+Make your photos 1/3, 2/3, or full width.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/BuffPortal_SurveyDesignTable.png" title="Survey Design Table" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    The survey design table associated with this project.
+    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    This image can also have a caption. It's like magic.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
+[Project image source](https://unsplash.com/photos/5fNmWej4tAA)
+
+{% raw %}
+```html
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+```
+{% endraw %}
