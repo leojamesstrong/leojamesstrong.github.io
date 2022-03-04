@@ -40,6 +40,3 @@ In other words, is Buff Portal very useful to students? We also asked contextual
 <div class="caption">
     The survey design table associated with this project.
 </div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
