@@ -7,7 +7,7 @@ importance: 4
 category: work
 ---
 
-<b>Timeline:</b>January 2022 - April 2022
+<b>Timeline:</b> January 2022 - April 2022
 
 In today's digital age, the way we represent ourselves online has begun to be just as important as how we represent ourselves in the real world. Our tastes in music are an important part of that representation and, while algorithms like the ones implemented in Spotify Wrapped can show this to some extent, there is not yet a program that displays these tastes in an interactive visual manner. As such, this project sought to design and implement such a program that simply and effectively allows users to display their musical tastes in an easy-to-digest visual format.
 
