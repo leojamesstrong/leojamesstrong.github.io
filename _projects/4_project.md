@@ -32,4 +32,31 @@ In today's digital age, the way we represent ourselves online has begun to be ju
     <li>Used IDEO cards to visualize several different styles and trends that have been historically been associated with genres, allowing the team to gauge what may work and what wouldn’t necessarily work as planned.</li>
 </ul>
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/W - Persona - Leo Strong.png" title="Example user persona" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    An example of a potential user for our app. Includes the user's goals, attitudes, and behaviors.
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/W - Journey Map.png" title="User journey map" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    A persona journey map using the example user described in the image above. Features different steps in the user's navigation and emotional journey while progressing through the app.
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/W - User Flow Diagram.png" title="User flow diagram" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    A diagram depicting a user's progression through various parts of the Wavatar app.
+</div>
+
 [Prototype demonstration](https://youtu.be/bE4i0LqHbRU)
