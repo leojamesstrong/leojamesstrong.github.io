@@ -29,8 +29,7 @@ In today's digital age, the way we represent ourselves online has begun to be ju
 
 <p><b>User Research Summary</b></p>
 <ul>
-    <li>Used IDEO cards to visualize several different styles and trends that have been historically been associated with genres, allowing the team to gauge what may work and what wouldn’t necessarily work as planned.
-</li>
+    <li>Used IDEO cards to visualize several different styles and trends that have been historically been associated with genres, allowing the team to gauge what may work and what wouldn’t necessarily work as planned.</li>
 </ul>
 
-[Project image source](https://unsplash.com/photos/fx0FBvDkkSc)
+[Prototype demonstration](https://youtu.be/bE4i0LqHbRU)
