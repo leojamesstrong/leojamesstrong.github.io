@@ -8,5 +8,5 @@ children:
       permalink: /resumes/
     - title: divider
     - title: projects
-      permalink: /projects/
+      permalink: /projects/1_project
 ---
