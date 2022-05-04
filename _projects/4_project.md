@@ -2,7 +2,7 @@
 layout: page
 title: Wavatars
 description: Music-based unique avatars
-img: assets/img/PulseSensor_Thumb.jpg
+img: assets/img/WavatarCover.png
 importance: 4
 category: work
 ---
