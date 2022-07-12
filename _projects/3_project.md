@@ -1,28 +1,58 @@
 ---
 layout: page
-title: In a Heartbeat
-description: Pulse sensing in context
-img: assets/img/PulseSensor_Thumb.jpg
+title: Nutrition Visualization
+description: Interactive graphic using nutritional data
+img: assets/img/WavatarCover.png
 importance: 3
 category: work
 ---
 
-This project features a prototype of an application UI conceptualized with the goal of addressing the lack of pulse sensing applications with a user-friendly visual interface that not only take and display the user’s pulse, but display that data in the context of that of a general populace, including a visible range of heart rates
-that are generally considered to be healthy and how the user’s pulse fits into that range. 
+<b>Timeline:</b> January 2022 - April 2022
+
+In today's digital age, the way we represent ourselves online has begun to be just as important as how we represent ourselves in the real world. Our tastes in music are an important part of that representation and, while algorithms like the ones implemented in Spotify Wrapped can show this to some extent, there is not yet a program that displays these tastes in an interactive visual manner. As such, this project sought to design and implement such a program that simply and effectively allows users to display their musical tastes in an easy-to-digest visual format.
+
+<blockquote>How might we be able to represent people's different tastes in music in an easy to digest visual format?</blockquote>
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/PulseDisplay_Base.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/PulseDisplay_Resting.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/PulseDisplay_InAction.gif" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/finalVis_Functions.gif" title="Visualization Functions" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
-    Concepts for various displays of the pulse application. From left to right: the default screen with the user's data point highlighted in blue, static version of the screen displayed after selecting a data point, and the selection screen with a pulsating data point.
+    My example drawings of "Wavatars," our unique music-based avatars.
 </div>
 
-[Project image source](https://unsplash.com/photos/fx0FBvDkkSc)
+<p><b>User Research Summary</b></p>
+<ul>
+    <li>Used IDEO cards to visualize several different styles and trends that have been historically been associated with genres, allowing the team to gauge what may work and what wouldn’t necessarily work as planned.</li>
+</ul>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/W - Persona - Leo Strong.png" title="Example user persona" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    An example of a potential user for our app. Includes the user's goals, attitudes, and behaviors.
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/W - Journey Map.png" title="User journey map" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    A persona journey map using the example user described in the image above. Features different steps in the user's navigation and emotional journey while progressing through the app.
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/W - User Flow Diagram.png" title="User flow diagram" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    A diagram depicting a user's progression through various parts of the Wavatar app.
+</div>
+
+[Prototype demonstration](https://youtu.be/bE4i0LqHbRU)
