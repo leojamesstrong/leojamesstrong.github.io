@@ -16,7 +16,7 @@ In today's digital age, the way we represent ourselves online has begun to be ju
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/finalVis_Functions" title="Visualization Functions" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/finalVis_Functions.gif" title="Visualization Functions" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
