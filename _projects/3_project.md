@@ -2,7 +2,7 @@
 layout: page
 title: Nutrition Visualization
 description: Interactive graphic using nutritional data
-img: assets/img/WavatarCover.png
+img: assets/img/finalVis_Cover.png
 importance: 3
 category: work
 ---
@@ -32,4 +32,13 @@ For this project, I used Altair, a statistical visualization library for Python,
 </div>
 <div class="caption">
     A rough concept sketch of the visualization to be created. The design's functionality was eventually modified, as seen above.
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/finalVis_Full.png" title="Finished visualization" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    A static version of the finished visualization.
 </div>
