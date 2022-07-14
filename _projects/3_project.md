@@ -13,32 +13,23 @@ For this project, I used Altair, a statistical visualization library for Python,
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/finalVis_Functions.gif" title="Visualization Functions" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/finalVis_Functions.gif" title="Visualization functionality demonstration" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
     A gif showcasing the visualization's functionality, including a drop-down menu and interactive tooltips.
 </div>
 
-<p><b>User Research Summary</b></p>
+<p><b>Data information and source</b></p>
 <ul>
-    <li>Used IDEO cards to visualize several different styles and trends that have been historically been associated with genres, allowing the team to gauge what may work and what wouldn’t necessarily work as planned.</li>
+    <li>For this project, I used <a href="https://www.ars.usda.gov/northeast-area/beltsville-md-bhnrc/beltsville-human-nutrition-research-center/methods-and-application-of-food-composition-laboratory/mafcl-site-pages/sr11-sr28/">food nutrition data published by the USDA</a>, which I condensed and sorted into related food groupings. I then used the Altair library's functions to map these groups and the associated nutritional data onto a scatter plot.</li>
 </ul>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/W - Persona - Leo Strong.png" title="Example user persona" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/finalVis_Concept.png" title="Original visualization concept drawing" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
-    An example of a potential user for our app. Includes the user's goals, attitudes, and behaviors.
-</div>
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/W - Journey Map.png" title="User journey map" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-</div>
-<div class="caption">
-    A persona journey map using the example user described in the image above. Features different steps in the user's navigation and emotional journey while progressing through the app.
+    A rough concept sketch of the visualization to be created. The design's functionality was eventually modified, as seen above.
 </div>
