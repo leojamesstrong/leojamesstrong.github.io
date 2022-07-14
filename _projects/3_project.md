@@ -7,12 +7,9 @@ importance: 3
 category: work
 ---
 
-<b>Timeline:</b> January 2022 - April 2022
+<b>Timeline:</b> March 2022 - May 2022
 
-In today's digital age, the way we represent ourselves online has begun to be just as important as how we represent ourselves in the real world. Our tastes in music are an important part of that representation and, while algorithms like the ones implemented in Spotify Wrapped can show this to some extent, there is not yet a program that displays these tastes in an interactive visual manner. As such, this project sought to design and implement such a program that simply and effectively allows users to display their musical tastes in an easy-to-digest visual format.
-
-<blockquote>How might we be able to represent people's different tastes in music in an easy to digest visual format?</blockquote>
-
+For this project, I used Altair, a statistical visualization library for Python, to create an interactive scatter plot containing nutritional data about a number of foods in certain categories.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -20,7 +17,7 @@ In today's digital age, the way we represent ourselves online has begun to be ju
     </div>
 </div>
 <div class="caption">
-    My example drawings of "Wavatars," our unique music-based avatars.
+    A gif showcasing the visualization's functionality, including a drop-down menu and interactive tooltips.
 </div>
 
 <p><b>User Research Summary</b></p>
@@ -45,14 +42,3 @@ In today's digital age, the way we represent ourselves online has begun to be ju
 <div class="caption">
     A persona journey map using the example user described in the image above. Features different steps in the user's navigation and emotional journey while progressing through the app.
 </div>
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/W - User Flow Diagram.png" title="User flow diagram" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-</div>
-<div class="caption">
-    A diagram depicting a user's progression through various parts of the Wavatar app.
-</div>
-
-[Prototype demonstration](https://youtu.be/bE4i0LqHbRU)
