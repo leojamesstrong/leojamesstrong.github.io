@@ -3,7 +3,7 @@ layout: page
 permalink: /resumes/
 title: resumes
 description: resumes by categories in reversed chronological order, labeled by field. 
-years: [2021, 2022]
+years: [2023]
 nav: true
 ---
 <!-- _pages/publications.md -->
