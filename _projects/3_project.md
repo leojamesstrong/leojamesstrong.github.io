@@ -1,11 +1,13 @@
 ---
 layout: page
-title: Nutrition Visualization
+title: Pulse Sensing
 description: Interactive graphic using nutritional data
 img: assets/img/finalVis_Cover.png
 importance: 3
 category: work
 ---
+
+<b>Work in progress</b>
 
 <b>Timeline:</b> March 2022 - May 2022
 
