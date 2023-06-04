@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Pulse Sensing
+title: Nutrition Visualization
 description: Interactive graphic using nutritional data
 img: assets/img/finalVis_Cover.png
 importance: 3
