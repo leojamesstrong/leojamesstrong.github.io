@@ -9,10 +9,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Leo  Strong | blog</title>
+    <title>Leo  Strong | resumes</title>
     <meta name="author" content="Leo  Strong" />
-    <meta name="description" content="A simple portfolio and resume website. 
-" />
+    <meta name="description" content="resumes by categories in reversed chronological order, labeled by field." />
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website" />
 
 
@@ -33,7 +32,7 @@
     <link rel="shortcut icon" type="image/png" href="/assets/img/favicon.png"/>
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://leojamesstrong.github.io/blog/">
+    <link rel="canonical" href="https://leojamesstrong.github.io/resumes/">
     
     <!-- Dark Mode -->
     
@@ -72,16 +71,16 @@
               </li>
               
               <!-- Blog -->
-              <li class="nav-item active">
-                <a class="nav-link" href="/blog/">blog<span class="sr-only">(current)</span></a>
+              <li class="nav-item ">
+                <a class="nav-link" href="/blog/">blog</a>
               </li>
 
               <!-- Other pages -->
               <li class="nav-item ">
                 <a class="nav-link" href="/projects/">projects</a>
               </li>
-              <li class="nav-item ">
-                <a class="nav-link" href="/resumes/">resumes</a>
+              <li class="nav-item active">
+                <a class="nav-link" href="/resumes/">resumes<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item dropdown ">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">work</a>
@@ -97,8 +96,8 @@
               </li>
 
               <!-- Toogle theme mode -->
-              <div class = "toggle-container">
-                <a id = "light-toggle">
+              <div class="toggle-container">
+                <a id="light-toggle">
                   <i class="fas fa-moon"></i>
                   <i class="fas fa-sun"></i>
                 </a>
@@ -111,21 +110,53 @@
 
     <!-- Content -->
     <div class="container mt-5">
-      <div class="post">
+      <!-- page.html -->
+        <div class="post">
 
-  <div class="header-bar">
-    <h1>blog</h1>
-    <h2>updates on recent and upcoming projects</h2>
-  </div>
+          <header class="post-header">
+            <h1 class="post-title">resumes</h1>
+            <p class="post-description">resumes by categories in reversed chronological order, labeled by field.</p>
+          </header>
 
+          <article>
+            <!-- _pages/publications.md -->
+<div class="publications">
+  <h2 class="year">2023</h2>
+  <ol class="bibliography"><li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">Complete</abbr></div>
 
-  <ul class="post-list">
-    
-  </ul>
+        <!-- Entry bib key -->
+        <div id="FullResume" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">2023 Resume</div>
+          <!-- Author -->
+          <div class="author">Strong, Leo
+          </div>
 
-  
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em></em> Aug 2023
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a href="/assets/pdf/resume2023.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+          </div>
+
+          
+        </div>
+      </div>
+</li></ol>
+
 
 </div>
+
+          </article>
+
+        </div>
 
     </div>
 
