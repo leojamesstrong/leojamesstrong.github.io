@@ -26,6 +26,7 @@ This project was a survey that I designed and deployed as part of a team. We sur
     Slides from my project team's presentation on the subject of our research and our findings. 
 </div>
  <a href="/assets/pdf/BuffPortal_SurveyReportSlides.pdf">Full slide deck</a>
+ 
 Our research question was:
 
 > Does Buff Portal provide a platform which properly aids students in finding solutions to their various school-related needs?
