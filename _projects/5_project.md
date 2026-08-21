@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Pulse Sensing
-description: Music-based unique avatars
+description: Health-based application concept
 img: assets/img/PulseSensor_Thumb.png
 importance: 4
 category: work

@@ -7,9 +7,7 @@ importance: 1
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+As part of a group with two other students, I conducted a survey of graduates who majored or minored in Information Science to determine what career paths they ended up choosing post-graduation.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
