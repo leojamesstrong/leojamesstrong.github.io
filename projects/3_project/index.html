@@ -9,10 +9,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Leo  Strong | blog</title>
+    <title>Leo  Strong | Nutrition Visualization</title>
     <meta name="author" content="Leo  Strong" />
-    <meta name="description" content="A simple portfolio and resume website. 
-" />
+    <meta name="description" content="Interactive graphic using nutritional data" />
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website" />
 
 
@@ -33,7 +32,7 @@
     <link rel="shortcut icon" type="image/png" href="/assets/img/favicon.png"/>
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://leojamesstrong.github.io/blog/">
+    <link rel="canonical" href="https://leojamesstrong.github.io/projects/3_project/">
     
     <!-- Dark Mode -->
     
@@ -72,8 +71,8 @@
               </li>
               
               <!-- Blog -->
-              <li class="nav-item active">
-                <a class="nav-link" href="/blog/">blog<span class="sr-only">(current)</span></a>
+              <li class="nav-item ">
+                <a class="nav-link" href="/blog/">blog</a>
               </li>
 
               <!-- Other pages -->
@@ -97,8 +96,8 @@
               </li>
 
               <!-- Toogle theme mode -->
-              <div class = "toggle-container">
-                <a id = "light-toggle">
+              <div class="toggle-container">
+                <a id="light-toggle">
                   <i class="fas fa-moon"></i>
                   <i class="fas fa-sun"></i>
                 </a>
@@ -111,21 +110,92 @@
 
     <!-- Content -->
     <div class="container mt-5">
-      <div class="post">
+      <!-- page.html -->
+        <div class="post">
 
-  <div class="header-bar">
-    <h1>blog</h1>
-    <h2>updates on recent and upcoming projects</h2>
-  </div>
+          <header class="post-header">
+            <h1 class="post-title">Nutrition Visualization</h1>
+            <p class="post-description">Interactive graphic using nutritional data</p>
+          </header>
 
+          <article>
+            <p><b>Work in progress</b></p>
 
-  <ul class="post-list">
-    
-  </ul>
+<p><b>Timeline:</b> March 2022 - May 2022</p>
 
-  
+<p>For this project, I used Altair, a statistical visualization library for Python, to create an interactive scatter plot containing nutritional data about a number of foods in certain categories.</p>
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/finalVis_Functions.gif-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/finalVis_Functions.gif-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/finalVis_Functions.gif-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/finalVis_Functions.gif" title="Visualization functionality demonstration" data-zoomable="">
+
+  </picture>
+
+</figure>
+
+    </div>
 </div>
+<div class="caption">
+    A gif showcasing the visualization's functionality, including a drop-down menu and interactive tooltips.
+</div>
+
+<p><b>Data information and source</b></p>
+<ul>
+    <li>For this project, I used <a href="https://www.ars.usda.gov/northeast-area/beltsville-md-bhnrc/beltsville-human-nutrition-research-center/methods-and-application-of-food-composition-laboratory/mafcl-site-pages/sr11-sr28/" target="_blank" rel="noopener noreferrer">food nutrition data published by the USDA</a>, which I condensed and sorted into related food groupings. I then used the Altair library's functions to map these groups and the associated nutritional data onto a scatter plot.</li>
+</ul>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/finalVis_Concept-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/finalVis_Concept-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/finalVis_Concept-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/finalVis_Concept.png" title="Original visualization concept drawing" data-zoomable="">
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+    A rough concept sketch of the visualization to be created. The design's functionality was eventually modified, as seen above.
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/finalVis_Full-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/finalVis_Full-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/finalVis_Full-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/finalVis_Full.png" title="Finished visualization" data-zoomable="">
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+    A static version of the finished visualization.
+</div>
+
+          </article>
+
+        </div>
 
     </div>
 
